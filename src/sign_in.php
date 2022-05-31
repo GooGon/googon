@@ -30,7 +30,7 @@ $page_name = "sign_in";
                 <input type="submit" class="login_btn" value="Sign In">
                 <a href='<?php echo URL; ?>index.php'><input type="button" class="back_btn" value="Back"></a>
             </form>
-        
+         <!-- mampus -->
         </div>
     </body>
 </html>
