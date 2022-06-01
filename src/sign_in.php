@@ -10,10 +10,11 @@ $page_name = "sign_in";
 
 <html>
     <head>
-        <?php
-        #Header
-        include_once 'web/utility/header.php';
-        ?>
+        <!-- Web Title-->
+        <title>Sign In | GooGon Testing Website</title>
+
+        <!-- Style - General (css) -->
+        <link rel="stylesheet" href="<?php echo URL; ?>assets/css/sign_in.css">
     </head>
 
     <body>  

@@ -1,18 +1,5 @@
 <!-- Web Title-->
 <title>GooGon Testing Website</title>
 
-<?php 
-#Error Handling
-if (!isset($page_name)) {
-    $page_name = null;
-}
-?>
-
-<?php if($page_name == 'sign_in'){ ?>
-    <!--Style - Sign In (css) -->
-    <link rel="stylesheet" href="<?php echo URL; ?>style/sign_in.css">
-    <link rel="stylesheet" href="<?php echo URL; ?>style/footer.css">
-<?php } else {?>
-    <!-- Style - General (css) -->
-    <link rel="stylesheet" href="<?php echo URL; ?>style/home.css">
-<?php } ?>
+<!-- Style - General (css) -->
+<link rel="stylesheet" href="<?php echo URL; ?>assets/css/web.css">
