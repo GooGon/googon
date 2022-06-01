@@ -14,8 +14,5 @@ if (!isset($page_name)) {
     <link rel="stylesheet" href="<?php echo URL; ?>style/footer.css">
 <?php } else {?>
     <!-- Style - General (css) -->
-    <link rel="stylesheet" href="<?php echo URL; ?>style/utilities.css">
-    <link rel="stylesheet" href="<?php echo URL; ?>style/nav.css">
-    <link rel="stylesheet" href="<?php echo URL; ?>style/section.css">
-    <link rel="stylesheet" href="<?php echo URL; ?>style/footer.css">
+    <link rel="stylesheet" href="<?php echo URL; ?>style/home.css">
 <?php } ?>
