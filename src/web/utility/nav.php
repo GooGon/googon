@@ -2,7 +2,7 @@
     <!-- LOGO -->
     <div class="logo">GooGon</div>
     <!-- NAVIGATION MENU -->
-    <ul class="nav-links">
+    <ul class="nav-links" style="margin-bottom: 0rem;">
         <input type="checkbox" id="checkbox_toggle" />
         <label for="checkbox_toggle" class="hamburger">&#9776;</label>
 
