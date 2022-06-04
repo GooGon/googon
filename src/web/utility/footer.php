@@ -1,3 +1,3 @@
-<div class="footer">
+<footer class="bg-dark text-center text-white">
     Powered by HafizHaikal - 2022
-</div>
+</footer>
