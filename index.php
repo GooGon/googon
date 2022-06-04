@@ -8,7 +8,8 @@ $page_no = "001";
 $page_name = "index";
 ?>
 
-<html>
+<!doctype html>
+<html lang="en">
     <head>
         <?php
         #Header
@@ -27,5 +28,7 @@ $page_name = "index";
         #Footer
         include_once ('src/web/utility/footer.php');
         ?>
+
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
