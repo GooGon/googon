@@ -5,13 +5,6 @@
 <title>GooGon Testing Website</title>
 
 <!-- Style - General (css) -->
-<link rel="stylesheet" href="<?php echo URL; ?>assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="<?php echo URL; ?>assets/css/fontawesome.min.css">
+<link rel="stylesheet" href="<?php echo URL; ?>libs/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="<?php echo URL; ?>libs/fontawesome/css/all.min.css">
 <link rel="stylesheet" href="<?php echo URL; ?>assets/css/web.css">
-
-<style>
-    /* Show it is fixed to the top */
-    body {
-        min-height: 75rem;
-    }
-</style>

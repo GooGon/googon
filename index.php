@@ -29,6 +29,8 @@ $page_name = "index";
         include_once ('src/web/utility/footer.php');
         ?>
         
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!-- SCRIPT -->
+        <script src="libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="libs/fontawesome/js/all.min.js"></script>
     </body>
 </html>
