@@ -1,4 +1,9 @@
-<footer class="bg-dark text-center text-white fixed-bottom">
+<footer class="bg-dark text-center text-white" 
+        style="
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          ">
     <!-- Grid container -->
     <div class="container pt-4">
       <!-- Section: Social media -->
@@ -67,4 +72,4 @@
       <a class="text-light" href="https://hafizhaikal.com/">HafizHaikal.com</a>
     </div>
     <!-- Copyright -->
-  </footer>
+</footer>
