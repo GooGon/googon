@@ -15,21 +15,6 @@ $page_name = "index";
         #Header
         include_once ('src/web/utility/header.php');
         ?>
-        <style>
-            .bd-placeholder-img {
-                font-size: 1.125rem;
-                text-anchor: middle;
-                -webkit-user-select: none;
-                -moz-user-select: none;
-                user-select: none;
-            }
-
-            @media (min-width: 768px) {
-                .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-                }
-            }
-        </style>
     </head>
 
     <body>
@@ -43,6 +28,7 @@ $page_name = "index";
         #Footer
         include_once ('src/web/utility/footer.php');
         ?>
+        
         
         <!-- SCRIPT -->
         <script src="libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
