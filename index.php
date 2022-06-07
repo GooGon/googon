@@ -18,17 +18,31 @@ $page_name = "index";
     </head>
 
     <body>
+        <header>
+            <!-- NAVIGATION -->
+            <?php
+            include_once ('src/web/utility/nav.php');
+            ?>
+            <!-- END NAVIGATION -->
+        </header>
 
-        <?php
-        #Navigation
-        include_once ('src/web/utility/nav.php');
-        ?>
+        <main>
+            <!-- CAROUSEL -->
+            <?php
+            include_once ('src/web/utility/carousel.php');
+            ?>
+            <!-- END CAROUSEL -->
 
-        <?php
-        #Footer
-        include_once ('src/web/utility/footer.php');
-        ?>
-        
+            <!-- -->
+            
+            <!-- END -->
+
+            <!-- FOOTER -->
+            <?php
+            include_once ('src/web/utility/footer.php');
+            ?>
+            <!-- END FOOTER -->
+        </main>        
         
         <!-- SCRIPT -->
         <script src="libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
