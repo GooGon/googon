@@ -33,9 +33,11 @@ $page_name = "index";
             ?>
             <!-- END CAROUSEL -->
 
-            <!-- -->
-            
-            <!-- END -->
+            <!-- CONTENT -->
+            <?php
+            include_once ('src/web/utility/content.php');
+            ?>
+            <!-- END CONTENT-->
 
             <!-- FOOTER -->
             <?php
