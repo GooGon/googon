@@ -19,9 +19,6 @@
             <a class="nav-link" aria-current="page" href='<?php echo URL; ?>src/web/contact_me.php'>Contact Me</a>
         </li>
       </ul>
-      <form class="d-flex" action='<?php echo URL; ?>src/sign_in.php'>
-        <button class="btn btn-outline-success" type="submit">Sign In</button>
-      </form>
     </div>
   </div>
 </nav>
