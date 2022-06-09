@@ -1,16 +1,22 @@
 <?php
 #Library
-include_once '../config/mainboard.php';
+include_once '../../config/mainboard.php';
 ?>
 
 <html>
     <head>
         <title>Contact Me | GooGon Testing Website</title>
+        <style>
+            .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            }
+        </style>
     </head>
 
     <body>
-        <b>Contact Me</b> &nbsp &nbsp | &nbsp &nbsp
-        <a href='../index.php'>Back</a>
-        <hr />
+        <img src="../../libs/error-page/page_404.PNG" class="center">
     </body>
 </html>
