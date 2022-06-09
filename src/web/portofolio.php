@@ -1,16 +1,49 @@
 <?php
 #Library
-include_once '../config/mainboard.php';
+require '../../config/define.php';
+require '../../config/mainboard.php';
+
+#Pagination Name
+$page_no = "004";
+$page_name = "web_portofolio";
+$page_title = "Portofolio | GooGon Testing Website";
 ?>
 
-<html>
+<!doctype html>
+<html lang="en">
     <head>
-        <title>Portofolio | GooGon Testing Website</title>
+        <?php
+        #Header
+        include_once ('utility/header.php');
+        ?>
     </head>
 
     <body>
-        <b>Portofolio</b> &nbsp &nbsp | &nbsp &nbsp
-        <a href='../index.php'>Back</a>
-        <hr />
+        <header>
+            <!-- NAVIGATION -->
+            <?php
+            $nav_active_status_portofolio = "active";
+            include_once ('utility/nav.php');
+            ?>
+            <!-- END NAVIGATION -->
+        </header>
+
+        <main>
+            <!-- CONTENT -->
+            <?php
+            include_once ('portofolio_content.php');
+            ?>
+            <!-- END CONTENT-->
+
+            <!-- FOOTER -->
+            <?php
+            include_once ('utility/footer.php');
+            ?>
+            <!-- END FOOTER -->
+        </main>        
+        
+        <!-- SCRIPT -->
+        <script src="<?php echo URL; ?>libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="<?php echo URL; ?>libs/fontawesome/js/all.min.js"></script>  
     </body>
 </html>

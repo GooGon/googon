@@ -14,7 +14,7 @@
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" 
+            <a class="nav-link <?php echo $nav_active_status_portofolio; ?>" 
                 aria-current="page" 
                 href='<?php echo URL; ?>src/web/portofolio.php'>
                   Portofolio
