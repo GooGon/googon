@@ -6,6 +6,7 @@ require 'config/mainboard.php';
 #Pagination Name
 $page_no = "001";
 $page_name = "index";
+$page_title = "GooGon Testing Website";
 ?>
 
 <!doctype html>
