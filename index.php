@@ -48,7 +48,7 @@ $page_title = "GooGon Testing Website";
         </main>        
         
         <!-- SCRIPT -->
-        <script src="libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="libs/fontawesome/js/all.min.js"></script>
+        <script src="<?php echo URL; ?>libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="<?php echo URL; ?>libs/fontawesome/js/all.min.js"></script>
     </body>
 </html>
