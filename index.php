@@ -29,13 +29,13 @@ $page_name = "index";
         <main>
             <!-- CAROUSEL -->
             <?php
-            include_once ('src/web/utility/carousel.php');
+            include_once ('src/web/home_carousel.php');
             ?>
             <!-- END CAROUSEL -->
 
             <!-- CONTENT -->
             <?php
-            include_once ('src/web/utility/content.php');
+            include_once ('src/web/home_content.php');
             ?>
             <!-- END CONTENT-->
 
