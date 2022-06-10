@@ -1,11 +1,21 @@
 <?php
 #Library
-include_once '../../config/mainboard.php';
+require '../../config/define.php';
+require '../../config/mainboard.php';
+
+#Pagination Name
+$page_no = "005";
+$page_name = "web_curiculum_vitae";
+$page_title = "Curiculum Vitae | GooGon Testing Website";
 ?>
 
-<html>
+<!doctype html>
+<html lang="en">
     <head>
-        <title>Curiculum Vitae | GooGon Testing Website</title>
+        <?php
+        #Header
+        include_once ('utility/header.php');
+        ?>
         <style>
             .center {
             display: block;
