@@ -27,6 +27,8 @@ $page_title = "Curiculum Vitae | GooGon Testing Website";
     </head>
 
     <body>
-        <img src="../../libs/error-page/page_404.PNG" class="center">
+        <a href="<?php echo URL;?>index.php">
+            <img src="../../libs/error-page/page_404.PNG" class="center">
+        </a>
     </body>
 </html>
